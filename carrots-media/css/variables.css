@@ -1,0 +1,45 @@
+:root {
+    /* Colors */
+    --color-bg: #050505;
+    --color-bg-secondary: #0f0f0f;
+    --color-text: #ffffff;
+    --color-text-muted: #a1a1aa;
+    --color-primary: #ff6b00; /* Carrot Orange */
+    --color-primary-hover: #e65100;
+    --color-accent: #ff9e40;
+    --color-border: #27272a;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+    --gradient-dark: linear-gradient(to bottom, transparent, var(--color-bg));
+
+    /* Typography */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+    
+    /* Spacing */
+    --container-width: 1200px;
+    --header-height: 80px;
+    
+    /* Radius */
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 16px;
+    --radius-full: 9999px;
+
+    /* Transitions */
+    --transition-base: all 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
